@@ -1,0 +1,1562 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+   <link rel="shortcut icon" href="https://uploads-ssl.webflow.com/5f2429f172d117fcee10e819/60474834660f934090d42877_stamp.png" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>Document</title>
+    <style>
+        @font-face {
+            font-family: doma;
+            src: url("/5f242a69b1577e63266b4d72_DomaineDispCondMedium.ttf");
+        }
+        *
+        {
+            padding: 0;
+            margin: 0;
+
+        }
+        #main
+        {
+            background-color:#1D1D1B ;
+
+
+        }
+        
+        
+        
+            
+
+
+        
+        html body{
+            height: 100%;
+            width: 100%;
+            background-color:#1D1D1B;
+        }
+        #page1
+        {
+            height: 110vh;
+            width: 100vw;
+           
+           
+            
+           
+            background-color: #c3bbb2;
+           
+           
+
+           
+
+        }
+        #page2
+        {
+            height: 170vh;
+            width: 100vw;
+           
+            
+           
+            background-color: #c3bbb2;
+            
+
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+           
+            position: relative; 
+            top: 150px;
+            align-items: center;
+            justify-content: space-evenly;
+
+
+            
+          
+
+           
+
+        }
+        #page3
+        {
+            height: 170vh;
+            width: 100vw;
+           
+            
+           
+            background-color: #c3bbb2;
+           
+            
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+           
+            position: relative;
+           top: 150px;
+           
+
+        }
+         #page4
+        {
+            height: 240vh;
+            width: 100vw;
+            position: relative;
+           top: 150px;
+           
+            
+           
+            background-color: #c3bbb2;
+           
+            
+            position: relative;
+            display: flex;
+           flex-direction: column;
+           justify-content: space-between;
+           
+           
+
+           
+
+        } 
+        #page5
+        {
+            height: 175vh;
+            width: 100vw;
+           
+            
+           
+            background-color: #c3bbb2;
+            position: relative;
+           top: 150px;
+           
+            
+            
+           
+            display: flex;
+           flex-direction: column;
+           
+           
+
+           
+
+        } 
+        #nav
+        {
+            height: 11%;
+            width: 100%;
+            border-bottom: 1px solid #6F6C66;
+            display: flex;
+            justify-content:space-between ;
+            align-items: center;
+            position: fixed;
+            background-color: #c3bbb2;
+            z-index: 99;
+        }
+        #h1
+        {
+            color:#7C7871;
+            font-size: 20px;
+            font-weight:100;
+        }
+        #h2
+
+        {
+            height: 30px;
+            width: 500px;
+
+        }
+        #h2 img
+
+        {
+            height: 30px;
+            width: 500px;
+            
+            
+        }
+        #hm
+        {
+            height: 50px;
+            width: 50px;
+            font-size: 30px;
+            color: black;
+            
+           
+        }
+        #elms
+        {
+            height: 216px;
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+            position: relative;
+            top: 140px;
+
+        
+        }
+        #el1
+        {
+            width: 400px;
+            height: 300px;
+            
+           
+            
+        }
+        #el1img
+        {
+            width: 400px;
+            height: 150px;
+            border: 1px solid black;
+            
+        }
+        #elu1img
+        {
+            width: 400px;
+            height: 150px;
+            border: 1px solid black;
+            
+        }
+        #el1img img
+        {
+            width: 400px;
+            height: 150px;
+           
+            
+        }
+        #elu1img img
+        {
+            width: 400px;
+            height: 150px;
+           
+            
+        }
+        #el3img
+        {
+            width: 400px;
+            height: 150px;
+           
+           
+            
+        }
+        #el3img img
+        {
+            width: 400px;
+            height: 150px;
+
+           
+            
+        }
+
+
+        #el2
+        {
+            width: 400px;
+            height: 300px;
+            border-left: 2px solid#75716B ;
+            border-right: 2px solid#75716B ;
+           
+            
+        }
+        #el3
+        {
+            width: 400px;
+            height: 300px;
+           
+            
+        }
+        #el1 span
+        {
+            padding:4px 4px;
+            background-color: #BB4D27;
+            color: #C7BDB3;
+            border-radius: 5px;
+            
+        }
+        #el1 p{
+            font-family:doma ;
+        }
+        #el3 p{
+            font-family:doma ;
+        }
+        #el1 h4{
+            margin-top: 20px;
+            margin-bottom: 20px;
+            font-size: 20px;
+            font-family: canopee;
+            
+        }
+
+        #el3 h4{
+            margin-top: 20px;
+            margin-bottom: 20px;
+            font-size: 20px;
+            font-family: canopee;
+            
+            
+        }
+        #el3 span
+        {
+            padding:4px 4px;
+            background-color: #BB4D27;
+            color: #C7BDB3;
+            border-radius: 5px;
+            
+        }
+        #el2
+        {
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+
+        }
+        #el2 h2{
+            font-size:75px;
+            font-weight: 100;
+            font-family:canopee ;
+
+        }
+        
+
+
+        
+        #el3 h4{
+            font-size: 25px;
+            font-family:doma ;
+
+
+        }
+        #el2 h6{
+            font-size: 18px;
+            font-family:doma ;
+            
+
+        }
+
+        #el1img:hover img{
+            scale:1.2;
+            transition-duration: 2s;
+        }
+        #elu1img:hover img{
+            scale:1.2;
+            transition-duration: 2s;
+        }
+        #elu1img
+        {
+            overflow: hidden;
+
+        }
+        #el1img
+        {
+            overflow: hidden;
+
+        }
+        #el3img:hover img{
+            scale:1.2;
+            transition-duration: 2s;
+        }
+        #el3img
+        {
+            overflow: hidden;
+
+        }
+        #mr
+        {
+            width: 100%;
+
+            height: 50%;
+            background-color: blueviolet;
+        }
+        #m
+        {
+            color: #C4BCB2;
+            background-color: #1C1B19;
+            opacity: 1;
+            width: 100vw;
+            position: relative;
+            top: 280px;
+            left: 0px;
+            height: 350px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            
+            font-size: 430px;
+            text-align: center;
+            font-family:canopee ;
+            letter-spacing: 4px;
+            z-index: 20;
+            
+
+        }
+        #left
+        {
+            height: 900px;
+            width: 450px;
+           
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            border-right: 2px solid  #6F6C66;
+        }
+        #right
+        {
+            height:900px ;
+            width:700px ;
+           
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+        }
+        #hl
+        {
+            font-size: 91px;
+            font-family:canopee ;
+            text-align: center;
+        }
+        #sl
+        {font-size:150px;
+            font-family:canopee ;
+
+        }
+        #l-u
+        {
+            height: 413px;
+            width: 80%;
+            border: 1px solid black;
+
+        }
+        #l-u img
+        {
+            height: 413px;
+            width: 100%;
+            object-fit: cover;
+
+        }
+        #plf
+        {
+            font-size: 25px;
+            height: 180px;
+            width: 100%;
+            font-family: sans-serif;
+
+        }
+        #r-u{
+            height: 500px;
+            width: 100%;border: 1px solid black;
+        }
+        #r-u img{
+            height: 500px;
+            width: 100%;
+            object-fit: cover;
+        }
+        #pr
+        {
+            font-size: 80px;
+            font-family: canopee;
+            font-weight: 800;
+            text-align: center;
+        }
+        #page3 #d1
+        {
+            height: 280px;
+            width: 100%;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center; 
+            position: relative;
+            top:0;
+            scale: 1;
+        }
+        #page3 #ws
+        {
+            width: 914px;
+            height: 280px;
+            background-color:#1C1C1A;
+            color:#C5BEB4 ;
+            font-size: 310px;
+           font-weight: 600;
+            font-family: canopee;
+            text-align: center;
+            letter-spacing: 5px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            
+        }
+        #page3 #img1
+        {
+            height: 280px;
+            width: 292px;
+        }
+        #page3 #im1 img
+        {
+            height: 280px;
+            width: 292px;
+            object-fit: cover;
+        }
+        #d2
+        {
+            height: 703px;
+            width: 100%;
+            /* border: 2px solid black; */
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+        }
+        #d2-1
+        {
+            height: 703px;
+            width: 700px;
+           
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            border-right: 2px solid #1C1C1A ;
+
+
+
+        }
+        #d2-1 #cont
+        {
+            height: 220px;
+            width: 90%;
+            
+            display: flex;
+            justify-content: space-evenly;
+        }
+        #d2-1 #i1
+        {
+            height: 220px;
+            width: 281px;
+          border-right:2px solid #57544F;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-evenly;
+        }
+        #d2-1 #i2
+        {
+            height: 220px;
+            width: 281px;
+            
+        }
+        #d2-1 #im1
+        {
+            height: 456px;
+            width: 92%;
+        }
+        #d2-1 #im1 img
+
+        {
+            height: 456px;
+            width: 100%;
+            object-fit: cover;
+        } 
+        #d2-2
+        {
+            height: 690px;
+            width: 400px;
+           
+            text-align: center;
+            display: flex;
+            flex-direction: column;justify-content:space-evenly;
+
+
+        
+        }
+        #d2-2 h1
+        {
+            font-size:80px;
+
+            font-family: canopee;
+        }
+        #d2-2 span
+        {
+            font-size:130px;
+            
+            font-family: canopee;
+            text-align: center;
+            /* position: relative;
+            left: 
+            40px; */
+        }
+        #d2-2 #p1
+        {
+            height: 120px;
+            width: 100%;
+            font-family: sans-serif;
+            text-align: center;
+            font-size: 25px;
+        }
+        #d2-2 #p2
+        {
+            height: 120px;
+            width: 100%;
+            font-family: sans-serif;
+            text-align: center;
+            font-size: 25px;
+        }
+        #al
+        {
+            height:144px ;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 70px;
+            font-family: canopee;
+            border-radius: 50%;
+            border: 2px solid black;
+            overflow: hidden;
+            align-self: center;
+            
+
+            width: 341px;
+        }
+        #i1 h1{
+            font-family: canopee;
+            font-size: 40px;
+        }
+        #i1 #p1
+        {
+            font-size: 28px;
+            font-family: sans-serif;
+            font-weight: 500;
+
+        }
+        #i1 h6
+        { 
+            font-size:14px;
+
+        }
+        #i1 span
+        { 
+            font-size:30px;
+
+        }
+        #i2 #im1
+        {
+            height: 125px;
+            width: 100%;
+            overflow: hidden;
+        }
+        #i2 #im1 img
+        {
+            height: 125px;
+            width: 100%;
+            object-fit: cover;
+        }
+        #i2 h2{
+            font-size: 30px;
+            font-family: canopee;
+        }
+        #i2 p{
+            height: 50px;
+            width: 100%;
+            font-size:12px;
+        }
+        #i2
+        {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            
+        }
+        #i2:hover img{
+            scale:1.2;
+            transition-duration: 1s;
+        }
+         #page4 #awards
+        {
+            height:180px ;
+
+            width: 100%;
+            
+            border: 2px solid black;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+        }
+        #page4 #awards #connt
+        {
+            height:150px ;
+
+            width: 300px;
+           
+            display: flex;align-items: center;
+            justify-content: space-between;
+
+        }
+        #page4 #awards #connt #df
+        {
+            height:100% ;
+
+            width:300px ;
+           
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        #page4 #awards #connt #df h2
+        {
+            height: 90px; ;
+
+            width:100% ;
+           
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: canopee;
+            font-size: 85px;
+
+        }
+        #page4 #awards #connt #df h3
+        {
+            height:60px ;
+
+            width:100% ;
+            
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 25px;
+            font-family: sans-serif;
+            font-weight:500;
+        }
+        #page4 #awards #connt #ds
+        {
+            height: 100%;
+
+            width: 80px;
+            
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 170px;
+        }
+
+        #page4 #s
+    {
+        height: 580px;
+        width: 100%;
+       
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    #page4 #s #d1
+    {
+        height: 100%;
+        width: 600px;
+       
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    #page4 #s #d1 #df
+    {
+        width: 100%;
+        height: 250px;
+        font-family: canopee ;
+
+       
+       
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    #page4 #s #d1 #df #di
+    {
+        width: 180px;
+        height: 100%;
+       
+
+       
+       border: 1px solid black;
+    }
+    #page4 #s #d1 #df #di img
+    {
+        width: 180px;
+        height: 100%;
+        object-fit: cover;
+       
+
+       
+       
+    }
+    #page4 #s #d1 #df #the
+    {
+       height: 100%;
+       width: 333px;
+        font-family: canopee ;
+
+       
+       
+        color:#1C1C19 ;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 310px;
+    }
+
+    #page4 #s #d1 #ds
+    {
+        width: 100%;
+        height: 250px;
+        font-family: canopee ;
+        
+        color:#1C1C19 ;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 320px;
+
+
+       
+       
+    }
+    #page4 #s #im
+    {
+        height: 100%;
+        width: 600px;
+        border: 1px solid black;
+    }
+    #page4 #s #im img
+    {
+        height: 100%;
+        width: 600px;
+        object-fit: cover;
+    }
+
+
+        #page4 #sl
+        {
+            height: 380px;
+            width: 100%;
+            
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        #page4 #sl #im
+        {
+            height:90%;
+            width: 401px;
+            border: 1px solid black;
+        }
+        #page4 #sl #im img
+        {
+            height:100%;
+            width: 401px;
+
+            
+        }
+        #page4 #sl h2
+        {
+            height:100%;
+            width: 770px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: canopee;
+            color:#1C1B19 ;
+            font-size: 310px;
+           
+        }
+
+        #page4 #last
+        {
+            height: 380px;
+            width: 100%;
+           
+            display: flex;
+            justify-content: space-evenly;
+        }
+         #art
+        {
+            width: 698px;
+            height: 100%;
+            background-color:#1C1C1A ;
+            color:#C5BEB4 ;
+            font-family: canopee;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size:260px ;
+        }
+        #last #d2
+        {
+            height: 100%;
+            width: 550px;
+            
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+        }
+       #last #d2 #p1
+        {
+            width:100%;
+            height: 80px;
+            font-size: 25px;
+            font-family: sans-serif;
+            position: relative;
+        left: 30px;
+        top: 10px;
+
+        }
+        #last #d2 h2
+        {
+            width:100%;
+            height: 100px;
+            font-size: 130px;
+            font-family: canopee;
+        position: relative;
+        color:#1C1B19 ;
+        left: 30px;
+
+        }
+        #last #d2 #p2
+        {
+            width:100%;
+            height: 60px;
+            font-size: 25px;
+            font-family: sans-serif;
+            position: relative;
+        left: 30px;
+
+        }
+        
+        #page5 #div1
+        {
+            height: 278px;
+            width: 100%;
+           
+            position: relative;
+            top: 20px;
+            border-radius: 20px;
+            white-space: nowrap;
+            overflow-x: scroll;
+            overflow-y: hidden;
+            display: flex;
+            align-items: center;
+           
+
+                        
+            
+            
+
+        }
+        #page5 #div1::-webkit-scrollbar
+        {
+           display: none;
+        }
+
+        #dc1
+        {
+         width: 500px;
+         height: 95%;
+         background-color:#C3BBB2;
+         border-radius: 20px;
+         display: inline-block;
+         display: flex;
+        
+         align-items: center;
+         justify-content: center;
+         border: 2px solid black;
+        
+         
+
+        }
+        #dc2
+        {
+            width: 500px;
+         height: 95%;
+         background-color:#C3BBB2 ;
+         border-radius: 20px;
+         display: inline-block;
+         display: flex;
+        
+         align-items: center;
+         justify-content: center;
+         border: 2px solid black;
+         z-index: 10;
+         position: relative;
+         right: 290px;
+
+        }
+        #dc3
+        {
+            width: 500px;
+         height: 95%;
+         background-color:#C3BBB2;
+         border-radius: 20px;
+         display: inline-block;
+         display: flex;
+        
+         align-items: center;
+         justify-content: center;
+         border: 2px solid black;
+         z-index: 60;
+         position: relative;
+         right: 580px;
+         
+
+        }
+        #dc4
+        {
+            width: 500px;
+         height: 95%;
+         background-color:#C3BBB2;
+         border-radius: 20px;
+         display: inline-block;
+         display: flex;
+        
+         align-items: center;
+         justify-content: center;
+         border: 2px solid black;
+         z-index: 90;
+         position: relative;
+         right: 890px;
+         
+
+
+        }
+        #ct1
+        {
+            height: 95%;
+            width: 95%;
+
+            display: flex;
+         flex-direction: column;
+         align-items: center;
+         justify-content: space-between;
+         border:2px black;
+         border-style:dashed ;
+         border-radius: 20px;
+        }
+        #qt
+        {
+            width: 400px;
+            height: 130px;
+           
+            color: #1C1B19;
+            text-decoration: underline;
+            font-family: sans-serif;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 15px;
+
+        }
+        #int
+        {
+            width: 400px;
+            height: 70px;
+           
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            position: relative;
+            bottom: 3px;
+
+            
+
+        }
+        #photo
+        {
+            height: 60px;
+            width: 60px;
+            border-radius: 50%;
+            
+            border-radius: 1px solid black;
+            background-image: url("TARUN.JPG");
+            background-size: 100% 100%;
+            position: relative;
+            left: 20px;
+            border: 1px solid black;
+
+        }
+         #dc2 #photo
+        {
+            height: 60px;
+            width: 60px;
+            border-radius: 50%;
+            
+            border-radius: 1px solid black;
+            background-image: url("https://uploads-ssl.webflow.com/5f2429f172d117fcee10e819/615b54ee54045a4769f04eba_sofia-papadopoulou.jpg");
+            background-size: 100% 100%;
+            position: relative;
+            left: 20px;
+            border: 1px solid black;
+            
+
+        }
+        #dc3 #photo
+        {
+            height: 60px;
+            width: 60px;
+            border-radius: 50%;
+            
+            border-radius: 1px solid black;
+            background-image: url("https://uploads-ssl.webflow.com/5f2429f172d117fcee10e819/615b54ee0df682e04e089676_bruno-arizio.jpg");
+            background-size: cover;
+            position: relative;
+            left: 20px;
+            border: 1px solid black;
+            
+
+        }
+        #dc4 #photo
+        {
+            height: 60px;
+            width: 60px;
+            border-radius: 50%;
+            
+            border-radius: 1px solid black;
+            background-image: url("https://uploads-ssl.webflow.com/5f2429f172d117fcee10e819/615b54ee9805af64275d2b44_enea-rossi.jpg");
+            background-size: 100% 100%;
+            position: relative;
+            left: 20px;
+            border: 1px solid black;
+            
+
+        }
+
+        #name
+        {
+            height: 70px;
+            width: 320px;
+           
+            display: flex;
+            flex-direction: column;
+            justify-content: end;
+            position: relative;
+            left: 20px;
+            
+            
+        }
+        #nm
+        {
+            color: #1C1B19;
+            font-size: 30px;
+            font-weight: 700;
+            font-family: canopee;
+        }
+        #div2
+        {
+            height: 150px;
+            width: 100%;
+            
+            position: relative;
+            top: 50px;
+           overflow-x: scroll;
+           overflow-y: hidden;
+           white-space: nowrap;
+           display: flex;
+           align-items: center;
+           border: 2px solid black;
+        }
+        #div2::-webkit-scrollbar
+        {
+            display: none;
+        }
+        #div2 h1{
+            display: inline-block;
+            text-transform: uppercase;
+            font-size: 70px
+        }
+        #div2 span{
+            height: 600px;
+            width: 600px;
+            font-size: 70px;
+           
+            margin-right:50px ;
+            margin-left: 50px;
+            background-color: #1D1D1B;
+            color:#B8B0A8 ;
+            font-family: canopee;
+        }
+        #dtu
+        {
+            height: 400px;
+            width: 100%;
+           
+            position: relative;
+            top: 80px;
+           
+        }
+        footer
+        {
+            width: 100%;
+            height:100px;
+            
+            position: relative;
+            top: 150px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between
+            ;
+            border-top: 1px solid #1D1D1b;
+            
+        }
+        #st
+        {
+            width: 300px;
+            height: 50px;
+           
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            font-size: 25px;
+            position: relative;
+            left: 20px;
+            color: #1C1B19;
+        }
+        #st h3{
+            font-family: canopee;
+        }
+        #st h4{
+            font-family: sans-serif;
+        }
+
+        #nd
+        {
+            width: 450px;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            font-family: canopee;
+            font-size: 25px;
+            color: #1C1B19;
+            position: relative;
+            right: 20px;
+        }
+        #al
+        {
+            overflow: hidden;
+        }
+        #al span
+        {
+            font-size: 70px;
+            position: relative;
+            right: 50px;
+        }
+        #al i{
+            font-size: 100px;
+            position: relative;
+            right: 300px;
+        }
+        
+
+
+        
+
+
+       
+       
+        
+
+
+       
+    </style>
+</head>
+<body>
+    <div id="main">
+        <div id="page1">
+            <div id="nav">
+                <h3 id="h1">Amsterdam.NL</h3>
+                <span id="h2"><img src="https://uploads-ssl.webflow.com/5f2429f172d117fcee10e819/5f7f87c8b81a6e7a214312f0_header.svg" alt=""></span>
+
+                <div id="hm"><i class="fa-solid fa-grip-lines"></i></div>
+                   
+
+
+
+                
+            </div>
+            <div id="elms">
+                <div id="el1">
+                    <div id="el1img">
+                        <img src="https://assets-global.website-files.com/5f9085a4041dd5427c5ac8ae/615d9672cc65f12c9ab25f21_thumbnail-small.jpeg?" alt="">
+                    </div>
+                    <h4>AVRO |CO <span>NEW</span></h4>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit enim reprehenderit, illo vel labore quam. Excepturi quis, sint voluptatibus, autem mollitia aliquid quia odit a impedit velit dolorem quisquam delectus!</p>
+                </div>
+                <div id="el2">
+                    <h2>ALL WORK!</h2>
+                    <h3>A FEATURED SELECTION <br>THE LATEST WORK- <br>OF THE LAST YEARS </h3>
+                    <h6><span>TIP !</span> DRAG TO SIDEWAYS TO NAVIGATE</h6>
+                </div>
+                <div id="el3"> <div id="el3img">
+                    <img src="https://assets-global.website-files.com/5f9085a4041dd5427c5ac8ae/645b5439577bd35377de8c43_thumbnail-small.webp?" alt="">
+                </div>
+                <h4>THE ROGER HUB <span>NEW</span></h4>
+                    <p id="pl">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit enim reprehenderit, illo vel labore quam. Excepturi quis, sint voluptatibus, autem mollitia aliquid quia odit a impedit velit dolorem quisquam delectus!</p>
+                </div>
+            </div>
+           <h1 id="m">
+            MIRANDA
+           </h1>
+
+            </div>
+            <div id="page2">
+                <div id="left">
+                    <h1 id="hl">INTERACITIVE<br><span id="sl">ARTIST!</span></h1>
+                    <div id="l-u">
+                     <img src="https://uploads-ssl.webflow.com/5f2429f172d117fcee10e819/605c6ce3bc0c7d1cd4ca847e_avatar-star-p-800.jpeg" alt="">
+                        
+                  
+                     </div>
+                    <p id="plf">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi reprehenderit earum aut et rerum, eveniet doloremque, non, temporibus numquam cupiditate animi architecto amet. Adipisci consectetur sed voluptas, obcaecati aliquid doloremque!</p> 
+                 
+
+                </div>
+                <div id="right">
+                    <div id="r-u">
+                        <img src="https://uploads-ssl.webflow.com/5f2429f172d117fcee10e819/605c62f4c78c4ba46a1268be_avatar-1-p-1600.jpeg" alt="">
+                    </div>
+                    <p id="pr">DIGITAL ART DIRACTOR<br>INTERACITIVE DISIGNER<br>CREATIVE DEVELOPER<br> BASED IN AMSTERDAM ,NL. </p>
+
+                </div> 
+
+            </div>
+            <div id="page3">
+                <div id="d1">
+                    <h1 id="ws">WEBSITE</h1>
+                    <div id="im1"><img src="https://uploads-ssl.webflow.com/5f2429f172d117fcee10e819/60474834660f934090d42877_stamp.png" alt=""></div>
+                
+                </div>
+                <div id="d2">
+                    <div id="d2-1">
+                        <div id="cont">
+                            <div id="i1"> <h1>UPCOMEING NEXT</h1>
+                            <p id="p1">Fresh entry-A selected<br>Work From the latest<br>digital releases</p> 
+                            <h6>TIP ! Click on the image to explore</h6>
+                        </div>
+                           
+                            <div id="i2">
+                                <div id="im1">
+                                    <img src="https://assets-global.website-files.com/5f9085a4041dd5427c5ac8ae/645b5c79f349770ebcc28ec4_thumbnail-small.webp?" alt="">
+                                </div>
+                                <h2>UNEXPECTED TIME</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga quos voluptas corporis nemo officiis, natus autem libero dicta delectus eos?
+                                </p>
+                            </div>
+                        </div>
+                        <div id="im1">
+                            <img src="https://uploads-ssl.webflow.com/5f2429f172d117fcee10e819/605c679f33f67d3dd00b04b4_avatar-3.jpeg" alt="">
+                        </div>
+
+
+
+                        
+                   
+                    </div>
+                    <div id="d2-2">
+                        <h1>THInK ,CREATE <br> <span>DELIVER</span></h1>
+                        <p id="p1">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem, magnam! Nostrum, ducimus. Vitae, delectus cumque?</p>
+                        
+                        <p id="p2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem, magnam! Nostrum, ducimus. Vitae, delectus cumque?</p>
+                            <div id="al"> <i class="ri-arrow-right-line"></i><span>ALL WORK</span></div>
+                    </div>
+
+                </div>
+
+            </div>
+            <div id="page4">
+                <div id="awards">
+                    <div id="connt">
+                    <div id="df">
+                        <h3>SITE OF THE DAY</h3>
+                        <h2>AWARDS</h2></div>
+                    <div id="ds">9</div>
+                    </div>
+                    <div id="connt">
+                        <div id="df">
+                            <h3>SITE OF THE DAY</h3>
+                            <h2>WINNER</h2></div>
+                        <div id="ds">1</div>
+                        </div>
+                        <div id="connt">
+                            <div id="df">
+                                <h3>FWA OF THE DAY</h3>
+                                <h2>AWARDS</h2></div>
+                            <div id="ds">6</div>
+                            </div>
+                            <div id="connt">
+                                <div id="df">
+                                    <h3>ACCLAIMED</h3>
+                                    <h2>Mnbds</h2></div>
+                                <div id="ds">8</div>
+                                </div>
+                                
+                </div>
+                <div id="s">
+                    <div id="d1">
+                        <div id="df">
+                            <div id="di">
+                                <img src="https://uploads-ssl.webflow.com/5f2429f172d117fcee10e819/605c70e48081716925e9832a_avatar-hat.jpeg" alt="">
+                            </div>
+                            <div id="the">THE</div>
+                        </div>
+                        <div id="ds">PIXEL</div>
+                    </div>
+                    <div id="im">
+                        <img src="https://uploads-ssl.webflow.com/5f2429f172d117fcee10e819/605c6da4f1f8304440ee2e8c_avatar-2-p-800.jpeg" alt="">
+                    </div>
+                </div>
+
+
+              <div id="sl">
+                <div id="im">
+                    <img src="https://uploads-ssl.webflow.com/5f2429f172d117fcee10e819/605c6fd0f6276ef0c6bacfa4_trophy-p-800.jpeg" alt="">
+                </div>
+                <h2>PERFECT</h2>
+              </div> 
+              <div id="last">
+                <div id="art">ARTISAN</div>
+                <div id="d2">
+                    <p id="p1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est eaque ut unde, possimus repellat fuga. Blanditiis dolor veniam fugiat saepe.\</p>
+                    <h2>AWWWARDS</h2>
+                    <p id="p2">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                </div> 
+              </div>
+            </div>
+            <div id="page5">
+                <div id="div1">
+                    <div id="dc1">
+                        <div id="ct1">
+                       
+                        <div id="qt">"Blurring the line between design and div,<br>Niccolo has unmatched eye for details and<br>precise execution in his work which pushes<br> the whole industry forward"</div>
+                        <div id="int">
+                            <div id="photo">
+
+                                
+                            </div>
+                            <div id="name">
+                                <div id="nm">TARUN VYAS</div>
+                                <div id="pst"> CREATIVE DIRACTOR & DISIGNER</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    </div>
+                    <div id="dc2">
+                        <div id="ct1">
+                       
+                        <div id="qt">"Lorem ipsum dolor, sit amet consectetur adipisicing.,<br>Lorem ipsum dolor sit amet consectetur adipisicing.<br>precise execution in his work which pushes<br> the whole industry forward"</div>
+                        <div id="int">
+                            <div id="photo">
+
+                                
+                            </div>
+                            <div id="name">
+                                <div id="nm">sofia jakaar</div>
+                                <div id="pst">Designer and ART DIRACTOR </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    </div>
+              <div id="dc3"> 
+                        <div id="ct1">
+                       
+                        <div id="qt">"Lorem ipsum dolor sit amet consectetur adipisicing.,<br>Lorem ipsum dolor sit, amet consectetur adipisicing.<br>Lorem ipsum dolor sit, amet consectetur adipisicing.<br> lorem5
+                            "</div>
+                        <div id="int">
+                            <div id="photo">
+
+                                
+                            </div>
+                            <div id="name">
+                                <div id="nm">arron finch</div>
+                                <div id="pst"> Creative Diractor At Studio BA</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    </div>  
+                      <div id="dc4"> 
+                        <div id="ct1">
+                       
+                        <div id="qt">"A Very Promiseing Createive Diractor and,<br>Lorem ipsum dolor sit amet consectetur.<br>Lorem ipsum dolor sit amet, consectetur adipisicing.<br>"Lorem ipsum dolor sit amet.
+                            "</div>
+                        <div id="int">
+                            <div id="photo">
+
+                                
+                            </div>
+                            <div id="name">
+                                <div id="nm">john carlo</div>
+                                <div id="pst"> Co-Founder At Adoritorio</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    </div> 
+                     
+                     
+
+                </div>
+                <div id="div2">
+                    <h1>LET'S CREATE SOMETHING TOGETHER  <span>EMAIL ME</span>  </h1> <h1>LET'S CREATE SOMETHING TOGETHER  <span>EMAIL ME</span>  </h1><h1>LET'S CREATE SOMETHING TOGETHER <span>EMAIL ME</span></h1><h1>LET's CREATE SOMETHING TOGETHER <span>EMAIL ME</span></h1>
+                    
+                        
+
+                    </div>
+                    <div id="dtu">
+                        <div id="elms">
+                            <div id="el1">
+                                <div id="elu1img">
+                                    <img src="https://assets-global.website-files.com/5f9085a4041dd5427c5ac8ae/647dc0777b1a5df29f8e5a58_thumbnail-small.webp?" alt="">
+                                </div>
+                                <h4>AVRO |CO <span>NEW</span></h4>
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit enim reprehenderit, illo vel labore quam. Excepturi quis, sint voluptatibus, autem mollitia aliquid quia odit a impedit velit dolorem quisquam delectus!</p>
+                            </div>
+                            <div id="el2">
+                                <h2>ALL WORK!</h2>
+                                <h3>A FEATURED SELECTION <br>THE LATEST WORK- <br>OF THE LAST YEARS </h3>
+                                <h6><span>TIP !</span> DRAG TO SIDEWAYS TO NAVIGATE</h6>
+                            </div>
+                            <div id="el3"> <div id="el3img">
+                                <img src="https://assets-global.website-files.com/5f9085a4041dd5427c5ac8ae/645b5439577bd35377de8c43_thumbnail-small.webp?" alt="">
+                            </div>
+                            <h4>THE ROGER HUB <span>NEW</span></h4>
+                                <p id="pl">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit enim reprehenderit, illo vel labore quam. Excepturi quis, sint voluptatibus, autem mollitia aliquid quia odit a impedit velit dolorem quisquam delectus!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <footer>
+                        <div id="st">
+                            <h3>MARINDA<i class="ri-copyright-line"></i> </h3>
+                            <img src="https://uploads-ssl.webflow.com/5f2429f172d117fcee10e819/60474834660f934090d42877_stamp.png" alt="" width="50px" height="50px">
+                            <h4>Legal</h4>
+                                
+                        </div>
+                        
+                        <ul id="nd" >
+                            <li>TWITTER</li>
+                            <li>INSTAGRAM</li>
+                            <li>DRIBBLE</li>
+                            <li>BEHANCE</li>
+                        </ul>
+                        
+                    </footer>
+
+                    
+                        
+                        </div>
+                    </div>
+                </div>
+                
+                
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="marinda.js"></script>
+</body>
+</html>
