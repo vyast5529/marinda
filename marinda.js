@@ -1,16 +1,16 @@
-// const scroll = new LocomotiveScroll({
-//     el: document.querySelector('#main'),
-//     smooth: true
-// });
-//  let t = gsap.timeline();
-// t.to("#page1",{
-//     y:"100vh",scale:0.5 ,duration:0
-// })
-// t.to("#page1",{
-//     y:"0vh" ,duration:2
-// })
-// t.to("#page1",{
-//     rotate:360,scale:1,duration:0.8})
+const scroll = new LocomotiveScroll({
+    el: document.querySelector('#main'),
+    smooth: true
+});
+ let t = gsap.timeline();
+t.to("#page1",{
+    y:"100vh",scale:0.5 ,duration:0
+})
+t.to("#page1",{
+    y:"0vh" ,duration:2
+})
+t.to("#page1",{
+    rotate:360,scale:1,duration:0.8})
 
 let c1 = document.querySelector("#dc1");
 let c2 = document.querySelector("#dc2");
